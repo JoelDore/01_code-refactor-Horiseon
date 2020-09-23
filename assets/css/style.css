@@ -21,7 +21,8 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #c9d6b8;
+    /* darken color slightly for visibility */
 }
 
 .header div {
