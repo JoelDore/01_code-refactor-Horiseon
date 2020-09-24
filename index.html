@@ -1,14 +1,12 @@
 <!-- Write README.md (*screenshot of diff *link to deployed app) -->
-<!-- Headings (h1-6) in sequential/logical order? -->
-<!-- Comments in CSS for visual clarity -->
-<!-- Rename divs w/ semantic HTML elements -->
-<!-- Match CSS elements to HTML properties -->
+<!-- Correct Flex/Margin/Padding in CSS -->
 
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
@@ -17,7 +15,7 @@
 
     <header>
 
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<mark>seo</mark>n</h1>
         <nav>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
             <a href="#online-reputation-management">Online Reputation Management</a>
@@ -32,7 +30,7 @@
     <!--Three Main Headers-->
     <main>
 
-        <section class="service">
+        <section class="service" id="search-engine-optimization">
 
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization"
                 class="float-left" />
@@ -45,7 +43,7 @@
             </p>
         </section>
 
-        <section class="service">
+        <section class="service" id="online-reputation-management">
 
             <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management"
                 class="float-right" />
@@ -58,7 +56,7 @@
             </p>
         </section>
 
-        <section class="service">
+        <section class="service" id="social-media-marketing">
 
             <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing" class="float-left" />
 
